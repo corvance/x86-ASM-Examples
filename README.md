@@ -13,7 +13,7 @@ ld -m elf_i386 object_file.o -o executable_file
 ```
 You can then run the executables in your terminal via `./executable_file`.
 
-Prebuilt executables are also provided for all programs.
+Prebuilt executables are also provided for all code.
 
 Enjoy! :)
 
