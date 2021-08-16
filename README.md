@@ -5,11 +5,11 @@ Explanations are provided in the comments covering the concept for that section 
 
 All code in this repository requires the [NASM](https://www.nasm.us/) assembler, installable with most package managers. It can also be used in WSL.
 
-To build the ASM files into Linux executables, use the following commands where '_file's use the name of the ASM file you are building:
+To build the ASM files into Linux executables, use the following commands where "_file"s use the name of the ASM file you are building:
 
 ```
 nasm -f elf32 asm_file.asm -o object_file.o
-ld -m elf_i386 object1_file.o -o executable_file
+ld -m elf_i386 object_file.o -o executable_file
 ```
-
+You can then run the executables in your terminal via `./executable_file`.
 
