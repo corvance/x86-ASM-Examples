@@ -6,7 +6,7 @@
 global _start
 
 
-; Program data.
+; Program data - constants.
 section .data
     ; An example string to output.
     ; Note that it DOES NOT have a newline character in this form.
