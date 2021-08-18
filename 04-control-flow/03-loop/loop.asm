@@ -20,7 +20,7 @@ loop:
     dec ecx         ; ecx = ecx - 1     ; Decrement (decrease by 1) ecx.
 
     cmp ecx, 0      ; Compare ecx to 0.
-    jg loop         ; If ecx > 0, jump back to the start of the loop to execute code again, else carry on.
+    jnz loop         ; If ecx != 0, jump back to the start of the loop to execute code again, else carry on.
 
     ; Code reaches here once ecx = 0.
     mov eax, 1      ; sys_exit syscall.
